@@ -8,7 +8,7 @@ const Input = props => (
     <TextInput
       placeholder={props.placeholder}
       autoCorrect={false}
-      autoCapitalize={false}
+      autoCapitalize='none'
       secureTextEntry={props.secureTextEntry}
       style={styles.textInput}
       onChangeText={props.onChangeText}
